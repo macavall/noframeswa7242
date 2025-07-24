@@ -7,7 +7,6 @@ app.http('message', {
         context.log(`Http function processed request for url "${request.url}"`);
 
         const name = request.query.get('name') || await request.text() || 'world';
-
-        return { body: `Hello, ${name}!` };
+        return { body: JSON.stringify({ text: `Hello, ${name}!` }) };
     }
 });
