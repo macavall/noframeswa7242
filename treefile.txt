@@ -1,0 +1,392 @@
+Folder PATH listing
+Volume serial number is 24E0-5510
+C:.
+¦   .gitignore
+¦   package-lock.json
+¦   package.json
+¦   readme.md
+¦   treefile.txt
+¦   
++---.devcontainer
+¦   ¦   devcontainer.json
+¦   ¦   Dockerfile
+¦   ¦   
+¦   +---library-scripts
+¦           node-debian.sh
+¦           
++---.github
+¦   +---workflows
+¦           azure-static-web-apps-victorious-coast-0d35d5b1e.yml
+¦           
++---.vscode
+¦       extensions.json
+¦       launch.json
+¦       settings.json
+¦       tasks.json
+¦       
++---api
+¦   ¦   .funcignore
+¦   ¦   .gitignore
+¦   ¦   host.json
+¦   ¦   local.settings.json
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   
+¦   +---node_modules
+¦   ¦   ¦   .package-lock.json
+¦   ¦   ¦   
+¦   ¦   +---@azure
+¦   ¦   ¦   +---functions
+¦   ¦   ¦       ¦   LICENSE
+¦   ¦   ¦       ¦   package.json
+¦   ¦   ¦       ¦   README.md
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---dist
+¦   ¦   ¦       ¦       azure-functions.js
+¦   ¦   ¦       ¦       azure-functions.js.map
+¦   ¦   ¦       ¦       azure-functions.min.js
+¦   ¦   ¦       ¦       azure-functions.min.js.map
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   ¦   addBindingName.ts
+¦   ¦   ¦       ¦   ¦   app.ts
+¦   ¦   ¦       ¦   ¦   constants.ts
+¦   ¦   ¦       ¦   ¦   errors.ts
+¦   ¦   ¦       ¦   ¦   index.ts
+¦   ¦   ¦       ¦   ¦   input.ts
+¦   ¦   ¦       ¦   ¦   InvocationContext.ts
+¦   ¦   ¦       ¦   ¦   InvocationModel.ts
+¦   ¦   ¦       ¦   ¦   output.ts
+¦   ¦   ¦       ¦   ¦   ProgrammingModel.ts
+¦   ¦   ¦       ¦   ¦   setup.ts
+¦   ¦   ¦       ¦   ¦   trigger.ts
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---converters
+¦   ¦   ¦       ¦   ¦       fromRpcBindings.ts
+¦   ¦   ¦       ¦   ¦       fromRpcContext.ts
+¦   ¦   ¦       ¦   ¦       fromRpcNullable.ts
+¦   ¦   ¦       ¦   ¦       fromRpcTriggerMetadata.ts
+¦   ¦   ¦       ¦   ¦       fromRpcTypedData.ts
+¦   ¦   ¦       ¦   ¦       toCamelCase.ts
+¦   ¦   ¦       ¦   ¦       toCoreFunctionMetadata.ts
+¦   ¦   ¦       ¦   ¦       toRpcDuration.ts
+¦   ¦   ¦       ¦   ¦       toRpcHttp.ts
+¦   ¦   ¦       ¦   ¦       toRpcHttpCookie.ts
+¦   ¦   ¦       ¦   ¦       toRpcNullable.ts
+¦   ¦   ¦       ¦   ¦       toRpcTypedData.ts
+¦   ¦   ¦       ¦   ¦       
+¦   ¦   ¦       ¦   +---hooks
+¦   ¦   ¦       ¦   ¦       AppStartContext.ts
+¦   ¦   ¦       ¦   ¦       AppTerminateContext.ts
+¦   ¦   ¦       ¦   ¦       HookContext.ts
+¦   ¦   ¦       ¦   ¦       InvocationHookContext.ts
+¦   ¦   ¦       ¦   ¦       LogHookContext.ts
+¦   ¦   ¦       ¦   ¦       PostInvocationContext.ts
+¦   ¦   ¦       ¦   ¦       PreInvocationContext.ts
+¦   ¦   ¦       ¦   ¦       registerHook.ts
+¦   ¦   ¦       ¦   ¦       
+¦   ¦   ¦       ¦   +---http
+¦   ¦   ¦       ¦   ¦       extractHttpUserFromHeaders.ts
+¦   ¦   ¦       ¦   ¦       httpProxy.ts
+¦   ¦   ¦       ¦   ¦       HttpRequest.ts
+¦   ¦   ¦       ¦   ¦       HttpResponse.ts
+¦   ¦   ¦       ¦   ¦       
+¦   ¦   ¦       ¦   +---utils
+¦   ¦   ¦       ¦           Disposable.ts
+¦   ¦   ¦       ¦           fallbackLogHandler.ts
+¦   ¦   ¦       ¦           getRandomHexString.ts
+¦   ¦   ¦       ¦           isTrigger.ts
+¦   ¦   ¦       ¦           nonNull.ts
+¦   ¦   ¦       ¦           tryGetCoreApiLazy.ts
+¦   ¦   ¦       ¦           util.ts
+¦   ¦   ¦       ¦           workerSystemLog.ts
+¦   ¦   ¦       ¦           
+¦   ¦   ¦       +---types
+¦   ¦   ¦           ¦   app.d.ts
+¦   ¦   ¦           ¦   cosmosDB.d.ts
+¦   ¦   ¦           ¦   cosmosDB.v3.d.ts
+¦   ¦   ¦           ¦   cosmosDB.v4.d.ts
+¦   ¦   ¦           ¦   eventGrid.d.ts
+¦   ¦   ¦           ¦   eventHub.d.ts
+¦   ¦   ¦           ¦   generic.d.ts
+¦   ¦   ¦           ¦   http.d.ts
+¦   ¦   ¦           ¦   index.d.ts
+¦   ¦   ¦           ¦   input.d.ts
+¦   ¦   ¦           ¦   InvocationContext.d.ts
+¦   ¦   ¦           ¦   mySql.d.ts
+¦   ¦   ¦           ¦   output.d.ts
+¦   ¦   ¦           ¦   serviceBus.d.ts
+¦   ¦   ¦           ¦   setup.d.ts
+¦   ¦   ¦           ¦   sql.d.ts
+¦   ¦   ¦           ¦   storage.d.ts
+¦   ¦   ¦           ¦   table.d.ts
+¦   ¦   ¦           ¦   timer.d.ts
+¦   ¦   ¦           ¦   trigger.d.ts
+¦   ¦   ¦           ¦   warmup.d.ts
+¦   ¦   ¦           ¦   webpubsub.d.ts
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---hooks
+¦   ¦   ¦                   appHooks.d.ts
+¦   ¦   ¦                   HookContext.d.ts
+¦   ¦   ¦                   invocationHooks.d.ts
+¦   ¦   ¦                   logHooks.d.ts
+¦   ¦   ¦                   registerHook.d.ts
+¦   ¦   ¦                   
+¦   ¦   +---@fastify
+¦   ¦   ¦   +---busboy
+¦   ¦   ¦       ¦   LICENSE
+¦   ¦   ¦       ¦   package.json
+¦   ¦   ¦       ¦   README.md
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---deps
+¦   ¦   ¦       ¦   +---dicer
+¦   ¦   ¦       ¦   ¦   ¦   LICENSE
+¦   ¦   ¦       ¦   ¦   ¦   
+¦   ¦   ¦       ¦   ¦   +---lib
+¦   ¦   ¦       ¦   ¦           dicer.d.ts
+¦   ¦   ¦       ¦   ¦           Dicer.js
+¦   ¦   ¦       ¦   ¦           HeaderParser.js
+¦   ¦   ¦       ¦   ¦           PartStream.js
+¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦       ¦   +---streamsearch
+¦   ¦   ¦       ¦           sbmh.js
+¦   ¦   ¦       ¦           
+¦   ¦   ¦       +---lib
+¦   ¦   ¦           ¦   main.d.ts
+¦   ¦   ¦           ¦   main.js
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---types
+¦   ¦   ¦           ¦       multipart.js
+¦   ¦   ¦           ¦       urlencoded.js
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---utils
+¦   ¦   ¦                   basename.js
+¦   ¦   ¦                   Decoder.js
+¦   ¦   ¦                   decodeText.js
+¦   ¦   ¦                   getLimit.js
+¦   ¦   ¦                   parseParams.js
+¦   ¦   ¦                   
+¦   ¦   +---cookie
+¦   ¦   ¦       index.js
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       SECURITY.md
+¦   ¦   ¦       
+¦   ¦   +---long
+¦   ¦   ¦   ¦   index.js
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       long.js
+¦   ¦   ¦   ¦       long.js.map
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---src
+¦   ¦   ¦           long.js
+¦   ¦   ¦           
+¦   ¦   +---undici
+¦   ¦       ¦   index-fetch.js
+¦   ¦       ¦   index.d.ts
+¦   ¦       ¦   index.js
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---docs
+¦   ¦       ¦   +---api
+¦   ¦       ¦   ¦       Agent.md
+¦   ¦       ¦   ¦       api-lifecycle.md
+¦   ¦       ¦   ¦       BalancedPool.md
+¦   ¦       ¦   ¦       CacheStorage.md
+¦   ¦       ¦   ¦       Client.md
+¦   ¦       ¦   ¦       Connector.md
+¦   ¦       ¦   ¦       ContentType.md
+¦   ¦       ¦   ¦       Cookies.md
+¦   ¦       ¦   ¦       DiagnosticsChannel.md
+¦   ¦       ¦   ¦       Dispatcher.md
+¦   ¦       ¦   ¦       DispatchInterceptor.md
+¦   ¦       ¦   ¦       Errors.md
+¦   ¦       ¦   ¦       Fetch.md
+¦   ¦       ¦   ¦       MockAgent.md
+¦   ¦       ¦   ¦       MockClient.md
+¦   ¦       ¦   ¦       MockErrors.md
+¦   ¦       ¦   ¦       MockPool.md
+¦   ¦       ¦   ¦       Pool.md
+¦   ¦       ¦   ¦       PoolStats.md
+¦   ¦       ¦   ¦       ProxyAgent.md
+¦   ¦       ¦   ¦       RetryHandler.md
+¦   ¦       ¦   ¦       WebSocket.md
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---assets
+¦   ¦       ¦   ¦       lifecycle-diagram.png
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---best-practices
+¦   ¦       ¦           client-certificate.md
+¦   ¦       ¦           mocking-request.md
+¦   ¦       ¦           proxy.md
+¦   ¦       ¦           writing-tests.md
+¦   ¦       ¦           
+¦   ¦       +---lib
+¦   ¦       ¦   ¦   agent.js
+¦   ¦       ¦   ¦   balanced-pool.js
+¦   ¦       ¦   ¦   client.js
+¦   ¦       ¦   ¦   dispatcher-base.js
+¦   ¦       ¦   ¦   dispatcher.js
+¦   ¦       ¦   ¦   global.js
+¦   ¦       ¦   ¦   pool-base.js
+¦   ¦       ¦   ¦   pool-stats.js
+¦   ¦       ¦   ¦   pool.js
+¦   ¦       ¦   ¦   proxy-agent.js
+¦   ¦       ¦   ¦   timers.js
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---api
+¦   ¦       ¦   ¦       abort-signal.js
+¦   ¦       ¦   ¦       api-connect.js
+¦   ¦       ¦   ¦       api-pipeline.js
+¦   ¦       ¦   ¦       api-request.js
+¦   ¦       ¦   ¦       api-stream.js
+¦   ¦       ¦   ¦       api-upgrade.js
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       readable.js
+¦   ¦       ¦   ¦       util.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---cache
+¦   ¦       ¦   ¦       cache.js
+¦   ¦       ¦   ¦       cachestorage.js
+¦   ¦       ¦   ¦       symbols.js
+¦   ¦       ¦   ¦       util.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---compat
+¦   ¦       ¦   ¦       dispatcher-weakref.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---cookies
+¦   ¦       ¦   ¦       constants.js
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       parse.js
+¦   ¦       ¦   ¦       util.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---core
+¦   ¦       ¦   ¦       connect.js
+¦   ¦       ¦   ¦       constants.js
+¦   ¦       ¦   ¦       errors.js
+¦   ¦       ¦   ¦       request.js
+¦   ¦       ¦   ¦       symbols.js
+¦   ¦       ¦   ¦       util.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---fetch
+¦   ¦       ¦   ¦       body.js
+¦   ¦       ¦   ¦       constants.js
+¦   ¦       ¦   ¦       dataURL.js
+¦   ¦       ¦   ¦       file.js
+¦   ¦       ¦   ¦       formdata.js
+¦   ¦       ¦   ¦       global.js
+¦   ¦       ¦   ¦       headers.js
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       LICENSE
+¦   ¦       ¦   ¦       request.js
+¦   ¦       ¦   ¦       response.js
+¦   ¦       ¦   ¦       symbols.js
+¦   ¦       ¦   ¦       util.js
+¦   ¦       ¦   ¦       webidl.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---fileapi
+¦   ¦       ¦   ¦       encoding.js
+¦   ¦       ¦   ¦       filereader.js
+¦   ¦       ¦   ¦       progressevent.js
+¦   ¦       ¦   ¦       symbols.js
+¦   ¦       ¦   ¦       util.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---handler
+¦   ¦       ¦   ¦       DecoratorHandler.js
+¦   ¦       ¦   ¦       RedirectHandler.js
+¦   ¦       ¦   ¦       RetryHandler.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---interceptor
+¦   ¦       ¦   ¦       redirectInterceptor.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---llhttp
+¦   ¦       ¦   ¦       constants.d.ts
+¦   ¦       ¦   ¦       constants.js
+¦   ¦       ¦   ¦       constants.js.map
+¦   ¦       ¦   ¦       llhttp-wasm.js
+¦   ¦       ¦   ¦       llhttp.wasm
+¦   ¦       ¦   ¦       llhttp_simd-wasm.js
+¦   ¦       ¦   ¦       llhttp_simd.wasm
+¦   ¦       ¦   ¦       utils.d.ts
+¦   ¦       ¦   ¦       utils.js
+¦   ¦       ¦   ¦       utils.js.map
+¦   ¦       ¦   ¦       wasm_build_env.txt
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---mock
+¦   ¦       ¦   ¦       mock-agent.js
+¦   ¦       ¦   ¦       mock-client.js
+¦   ¦       ¦   ¦       mock-errors.js
+¦   ¦       ¦   ¦       mock-interceptor.js
+¦   ¦       ¦   ¦       mock-pool.js
+¦   ¦       ¦   ¦       mock-symbols.js
+¦   ¦       ¦   ¦       mock-utils.js
+¦   ¦       ¦   ¦       pending-interceptors-formatter.js
+¦   ¦       ¦   ¦       pluralizer.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---node
+¦   ¦       ¦   ¦       fixed-queue.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---websocket
+¦   ¦       ¦           connection.js
+¦   ¦       ¦           constants.js
+¦   ¦       ¦           events.js
+¦   ¦       ¦           frame.js
+¦   ¦       ¦           receiver.js
+¦   ¦       ¦           symbols.js
+¦   ¦       ¦           util.js
+¦   ¦       ¦           websocket.js
+¦   ¦       ¦           
+¦   ¦       +---types
+¦   ¦               agent.d.ts
+¦   ¦               api.d.ts
+¦   ¦               balanced-pool.d.ts
+¦   ¦               cache.d.ts
+¦   ¦               client.d.ts
+¦   ¦               connector.d.ts
+¦   ¦               content-type.d.ts
+¦   ¦               cookies.d.ts
+¦   ¦               diagnostics-channel.d.ts
+¦   ¦               dispatcher.d.ts
+¦   ¦               errors.d.ts
+¦   ¦               fetch.d.ts
+¦   ¦               file.d.ts
+¦   ¦               filereader.d.ts
+¦   ¦               formdata.d.ts
+¦   ¦               global-dispatcher.d.ts
+¦   ¦               global-origin.d.ts
+¦   ¦               handlers.d.ts
+¦   ¦               header.d.ts
+¦   ¦               index.d.ts
+¦   ¦               interceptors.d.ts
+¦   ¦               mock-agent.d.ts
+¦   ¦               mock-client.d.ts
+¦   ¦               mock-errors.d.ts
+¦   ¦               mock-interceptor.d.ts
+¦   ¦               mock-pool.d.ts
+¦   ¦               patch.d.ts
+¦   ¦               pool-stats.d.ts
+¦   ¦               pool.d.ts
+¦   ¦               proxy-agent.d.ts
+¦   ¦               readable.d.ts
+¦   ¦               README.md
+¦   ¦               retry-handler.d.ts
+¦   ¦               webidl.d.ts
+¦   ¦               websocket.d.ts
+¦   ¦               
+¦   +---src
+¦       ¦   index.js
+¦       ¦   
+¦       +---functions
+¦               message.js
+¦               
++---src
+        index.html
+        styles.css
+        
